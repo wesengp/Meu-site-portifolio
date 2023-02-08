@@ -422,11 +422,3 @@ li{
 }
 
 
-.footer-email {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-margin-right: 420px;
-color: #1e1e1e;
-}

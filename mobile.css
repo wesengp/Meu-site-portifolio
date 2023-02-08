@@ -1,0 +1,145 @@
+@media only screen and (max-device-width: 450px) {
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .hero-info-image{
+        height: 250px;
+        width: 150px;
+        margin-bottom: 60px;
+     
+    
+    }
+
+    .content-conteiner{
+        width: 95%;
+        max-width: 95%;
+        
+    }
+    
+    .barra-navegacao{
+       
+        width: 100%;
+       
+    }
+
+
+    .hero-info{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        padding-top: 24px;
+        
+    }
+
+   footer{
+    display: none;
+   }
+       
+
+
+    .ability-card-conteiner{
+        row-gap: 32px;
+        grid-template-columns: auto;
+        margin-top: 12px;
+    
+    }
+
+    .section-experiencias-card{
+       
+        width: 90%;
+       
+    }
+
+
+    .section-hero-grid{
+        row-gap: 32px;
+        grid-template-columns: auto;
+        margin-top: 12px;
+
+        
+    }
+
+
+    .section-portifolio{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    h2{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 35px;
+        line-height: 35px;
+        color: #1e1e1e;
+        padding: 0px;
+        margin: 0px;
+
+    
+}
+
+.section-hero{
+   height: auto;
+  
+}
+
+.links-navegacao{
+    display: none;
+
+   
+}
+
+.titulo-navegacao{
+    letter-spacing: -0.015rem;
+    font-size: 20px;
+    padding-left: 12px;
+}
+
+.hero-info-title{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.hero-info-subtitle{
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+
+
+button {     
+    height: 36px;
+
+}
+
+.hero-info-button{
+    margin-left: 35px;
+    width: 250px;
+}
+.hero-info-iccons-conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 30px; 
+    margin-left: -35px;
+   
+    
+
+}
+
+
+}
